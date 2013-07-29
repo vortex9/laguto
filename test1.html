@@ -1,0 +1,31 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+ 
+<head>
+ 
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1251" />
+ 
+<title>Change of Background Color by HTML.BY team</title>
+ 
+<script type="text/javascript">
+<!--
+var countPress = 1;
+ 
+function setBg() {
+    countPress++;
+    if (countPress == 2) {Object.style.backgroundImage="url('/pic/sk2.jpg')";}
+    if (countPress == 3) {Object.style.backgroundImage="url('/pic/sk1.jpg')";}
+    if (countPress == 4) {document.bgColor = 'blue';}
+    if (countPress == 5) {document.bgColor = 'white'; countPress = 1;}
+}
+//-->
+</script>
+ 
+</head>
+ 
+<body>
+ 
+<input type="button" id="but_1" name="but_1" value="Изменить цвет фона" onClick="return setBg()">
+ 
+</body>
+</html>
