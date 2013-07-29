@@ -1,9 +1,9 @@
-
+п»ї
 
 body {
 
 		
-font: 10pt Arial, Helvetica, sans-serif, Tahoma; /* Шрифт на веб-странице */
+font: 10pt Arial, Helvetica, sans-serif, Tahoma; /* РЁСЂРёС„С‚ РЅР° РІРµР±-СЃС‚СЂР°РЅРёС†Рµ */
 
 
 background: #DBDBEE url(/pic/main.jpg);
@@ -21,13 +21,13 @@ a:visited {
 color: #cccccc;
 }
 h2 {
-font-size: 1.1em; /* Размер шрифта */
-color: #800040; /* Цвет текста */
-margin-top: 0; /* Отступ сверху */
+font-size: 1.1em; /* Р Р°Р·РјРµСЂ С€СЂРёС„С‚Р° */
+color: #800040; /* Р¦РІРµС‚ С‚РµРєСЃС‚Р° */
+margin-top: 0; /* РћС‚СЃС‚СѓРї СЃРІРµСЂС…Сѓ */
 }
 #container {
-width: 500px; /* Ширина слоя */
-margin: 0 auto; /* Выравнивание по центру */
+width: 500px; /* РЁРёСЂРёРЅР° СЃР»РѕСЏ */
+margin: 0 auto; /* Р’С‹СЂР°РІРЅРёРІР°РЅРёРµ РїРѕ С†РµРЅС‚СЂСѓ */
 margin-top: 5%;
 
 border-top-right-radius: 20px;
@@ -39,21 +39,27 @@ box-shadow: inset 0 0 15px #CCC, 0 0 10px;
 border: 1px solid #575757;
 }
 #header {
-font-size: 3em; /* Размер текста */
-text-align: center; /* Выравнивание по центру */
-font-weight: 600; /* Насыщенность текста*/
-text-shadow: 0px 2px 3px #555555; /* Тень текста */
-padding: 5px; /* Отступы вокруг текста */
-background: #464451; /* Цвет фона шапки */
-color: #222222; /* Цвет текста */
+font-size: 3em; /* Р Р°Р·РјРµСЂ С‚РµРєСЃС‚Р° */
+text-align: center; /* Р’С‹СЂР°РІРЅРёРІР°РЅРёРµ РїРѕ С†РµРЅС‚СЂСѓ */
+font-weight: 600; /* РќР°СЃС‹С‰РµРЅРЅРѕСЃС‚СЊ С‚РµРєСЃС‚Р°*/
+text-shadow: 0px 2px 3px #555555; /* РўРµРЅСЊ С‚РµРєСЃС‚Р° */
+padding: 5px; /* РћС‚СЃС‚СѓРїС‹ РІРѕРєСЂСѓРі С‚РµРєСЃС‚Р° */
+background: #464451; /* Р¦РІРµС‚ С„РѕРЅР° С€Р°РїРєРё */
+color: #222222; /* Р¦РІРµС‚ С‚РµРєСЃС‚Р° */
 border-top-right-radius: 20px;
 border-top-left-radius: 20px;
 /*box-shadow: -2px -2px 5px #000;*/
 letter-spacing: 5px;
 position: relative;
+transition: all 0.5s;
+}
+
+#header:hover {
+text-shadow: 0px 2px 3px #79D1E7; /* РўРµРЅСЊ С‚РµРєСЃС‚Р° */
+color: #000; /* Р¦РІРµС‚ С‚РµРєСЃС‚Р° */
 }
 #menu {
-background: #464451; /* Цвет фона */
+background: #464451; /* Р¦РІРµС‚ С„РѕРЅР° */
 padding-bottom: 40px;
 margin: 0px auto;
 position: relative;
@@ -61,16 +67,16 @@ position: relative;
 
 #content {
 position: relative;
-padding: 10px; /* Поля вокруг текста */
-background: #ccc; /* Цвет фона правой колонки */
+padding: 10px; /* РџРѕР»СЏ РІРѕРєСЂСѓРі С‚РµРєСЃС‚Р° */
+background: #ccc; /* Р¦РІРµС‚ С„РѕРЅР° РїСЂР°РІРѕР№ РєРѕР»РѕРЅРєРё */
 height: 100px;
 
 }
 
 #footer {
-background: #464451; /* Цвет фона подвала */
-color: #fff; /* Цвет текста */
-padding: 2px; /* Отступы вокруг текста */
+background: #464451; /* Р¦РІРµС‚ С„РѕРЅР° РїРѕРґРІР°Р»Р° */
+color: #fff; /* Р¦РІРµС‚ С‚РµРєСЃС‚Р° */
+padding: 2px; /* РћС‚СЃС‚СѓРїС‹ РІРѕРєСЂСѓРі С‚РµРєСЃС‚Р° */
 padding-bottom: 20px;
 border-bottom-right-radius: 15px;
 border-bottom-left-radius: 15px;
@@ -101,22 +107,22 @@ position: absolute;
 border: 5px;
 }
 TABLE {
-border: 0px #399; /* Граница вокруг таблицы */
+border: 0px #399; /* Р“СЂР°РЅРёС†Р° РІРѕРєСЂСѓРі С‚Р°Р±Р»РёС†С‹ */
 /* margin: 0 auto; */
 }
 TD {
-font-size: 1.1em; /* Размер текста */
-font-weight: 600; /* Насыщенность текста*/
-text-shadow: 0px 2px 3px #fff; /* Тень текста */
-color: #7F7F7F; /* Цвет текста */
-border: 0px ; /* Граница вокруг ячеек */
-/* empty-cells: show; /* Прячем пустые ячейки */
-padding: 0px; /* Поля в ячейках */
+font-size: 1.1em; /* Р Р°Р·РјРµСЂ С‚РµРєСЃС‚Р° */
+font-weight: 600; /* РќР°СЃС‹С‰РµРЅРЅРѕСЃС‚СЊ С‚РµРєСЃС‚Р°*/
+text-shadow: 0px 2px 3px #fff; /* РўРµРЅСЊ С‚РµРєСЃС‚Р° */
+color: #7F7F7F; /* Р¦РІРµС‚ С‚РµРєСЃС‚Р° */
+border: 0px ; /* Р“СЂР°РЅРёС†Р° РІРѕРєСЂСѓРі СЏС‡РµРµРє */
+/* empty-cells: show; /* РџСЂСЏС‡РµРј РїСѓСЃС‚С‹Рµ СЏС‡РµР№РєРё */
+padding: 0px; /* РџРѕР»СЏ РІ СЏС‡РµР№РєР°С… */
 }
 
 #container2 {
-width: 500px; /* Ширина слоя */
-margin: 20px auto; /* Выравнивание по центру */
+width: 500px; /* РЁРёСЂРёРЅР° СЃР»РѕСЏ */
+margin: 20px auto; /* Р’С‹СЂР°РІРЅРёРІР°РЅРёРµ РїРѕ С†РµРЅС‚СЂСѓ */
 border-top-right-radius: 20px;
 border-top-left-radius: 20px;
 border-bottom-right-radius: 15px;
@@ -127,18 +133,23 @@ border: 1px solid #575757;
 }
 
 #header2 {
-font-size: 3em; /* Размер текста */
-text-align: center; /* Выравнивание по центру */
-font-weight: 600; /* Насыщенность текста*/
-text-shadow: 0px 2px 3px #555555; /* Тень текста */
-padding: 5px; /* Отступы вокруг текста */
-background: #464451; /* Цвет фона шапки */
-color: #222222; /* Цвет текста */
+font-size: 3em; /* Р Р°Р·РјРµСЂ С‚РµРєСЃС‚Р° */
+text-align: center; /* Р’С‹СЂР°РІРЅРёРІР°РЅРёРµ РїРѕ С†РµРЅС‚СЂСѓ */
+font-weight: 600; /* РќР°СЃС‹С‰РµРЅРЅРѕСЃС‚СЊ С‚РµРєСЃС‚Р°*/
+text-shadow: 0px 2px 3px #555555; /* РўРµРЅСЊ С‚РµРєСЃС‚Р° */
+padding: 5px; /* РћС‚СЃС‚СѓРїС‹ РІРѕРєСЂСѓРі С‚РµРєСЃС‚Р° */
+background: #464451; /* Р¦РІРµС‚ С„РѕРЅР° С€Р°РїРєРё */
+color: #222222; /* Р¦РІРµС‚ С‚РµРєСЃС‚Р° */
 border-top-right-radius: 20px;
 border-top-left-radius: 20px;
 /*box-shadow: -2px -2px 5px #000;*/
 letter-spacing: 5px;
 position: relative;
+}
+
+#header2:hover {
+text-shadow: 0px 2px 3px #79D1E7; /* РўРµРЅСЊ С‚РµРєСЃС‚Р° */
+color: #000; /* Р¦РІРµС‚ С‚РµРєСЃС‚Р° */
 }
 
 #social a {
