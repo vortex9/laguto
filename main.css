@@ -1,0 +1,151 @@
+
+
+body {
+
+		
+font: 10pt Arial, Helvetica, sans-serif, Tahoma; /* Шрифт на веб-странице */
+
+
+background: #DBDBEE url(/pic/main.jpg);
+
+}
+
+a:link {
+text-decoration: none;
+}
+
+a:hover {
+color:#ffcc00;
+}
+a:visited {
+color: #cccccc;
+}
+h2 {
+font-size: 1.1em; /* Размер шрифта */
+color: #800040; /* Цвет текста */
+margin-top: 0; /* Отступ сверху */
+}
+#container {
+width: 500px; /* Ширина слоя */
+margin: 0 auto; /* Выравнивание по центру */
+margin-top: 5%;
+
+border-top-right-radius: 20px;
+border-top-left-radius: 20px;
+border-bottom-right-radius: 15px;
+border-bottom-left-radius: 15px;
+position: relative;
+box-shadow: inset 0 0 15px #CCC, 0 0 10px;
+border: 1px solid #575757;
+}
+#header {
+font-size: 3em; /* Размер текста */
+text-align: center; /* Выравнивание по центру */
+font-weight: 600; /* Насыщенность текста*/
+text-shadow: 0px 2px 3px #555555; /* Тень текста */
+padding: 5px; /* Отступы вокруг текста */
+background: #464451; /* Цвет фона шапки */
+color: #222222; /* Цвет текста */
+border-top-right-radius: 20px;
+border-top-left-radius: 20px;
+/*box-shadow: -2px -2px 5px #000;*/
+letter-spacing: 5px;
+position: relative;
+}
+#menu {
+background: #464451; /* Цвет фона */
+padding-bottom: 40px;
+margin: 0px auto;
+position: relative;
+}
+
+#content {
+position: relative;
+padding: 10px; /* Поля вокруг текста */
+background: #ccc; /* Цвет фона правой колонки */
+height: 100px;
+
+}
+
+#footer {
+background: #464451; /* Цвет фона подвала */
+color: #fff; /* Цвет текста */
+padding: 2px; /* Отступы вокруг текста */
+padding-bottom: 20px;
+border-bottom-right-radius: 15px;
+border-bottom-left-radius: 15px;
+/*box-shadow: -2px 2px 5px #000;*/
+position: relative;
+}
+#footer .email {
+
+float: left;
+padding-left:20px;
+
+}
+#footer .copy {
+
+float:right;
+padding-right:10px;
+}
+#bg_block {
+right: 5px;
+bottom: 5px;
+position: absolute;
+border: 5px;
+}
+#social {
+right: 5px;
+top: 5px;
+position: absolute;
+border: 5px;
+}
+TABLE {
+border: 0px #399; /* Граница вокруг таблицы */
+/* margin: 0 auto; */
+}
+TD {
+font-size: 1.1em; /* Размер текста */
+font-weight: 600; /* Насыщенность текста*/
+text-shadow: 0px 2px 3px #fff; /* Тень текста */
+color: #7F7F7F; /* Цвет текста */
+border: 0px ; /* Граница вокруг ячеек */
+/* empty-cells: show; /* Прячем пустые ячейки */
+padding: 0px; /* Поля в ячейках */
+}
+
+#container2 {
+width: 500px; /* Ширина слоя */
+margin: 20px auto; /* Выравнивание по центру */
+border-top-right-radius: 20px;
+border-top-left-radius: 20px;
+border-bottom-right-radius: 15px;
+border-bottom-left-radius: 15px;
+position: relative;
+box-shadow: inset 0 0 15px #CCC, 0 0 10px;
+border: 1px solid #575757;
+}
+
+#header2 {
+font-size: 3em; /* Размер текста */
+text-align: center; /* Выравнивание по центру */
+font-weight: 600; /* Насыщенность текста*/
+text-shadow: 0px 2px 3px #555555; /* Тень текста */
+padding: 5px; /* Отступы вокруг текста */
+background: #464451; /* Цвет фона шапки */
+color: #222222; /* Цвет текста */
+border-top-right-radius: 20px;
+border-top-left-radius: 20px;
+/*box-shadow: -2px -2px 5px #000;*/
+letter-spacing: 5px;
+position: relative;
+}
+
+#social a {
+opacity: 0.25;
+transition: all 0.5s;
+}
+#social a:hover, #social a:focus {
+opacity: 1;
+
+} 
