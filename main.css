@@ -145,6 +145,7 @@ border-top-left-radius: 20px;
 /*box-shadow: -2px -2px 5px #000;*/
 letter-spacing: 5px;
 position: relative;
+transition: all 0.5s;
 }
 
 #header2:hover {
