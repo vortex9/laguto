@@ -1,13 +1,8 @@
 ﻿
 
 body {
-
-		
 font: 10pt Arial, Helvetica, sans-serif, Tahoma; /* Шрифт на веб-странице */
-
-
 background: #DBDBEE url(/pic/main.jpg);
-
 }
 
 a:link {
@@ -17,14 +12,17 @@ text-decoration: none;
 a:hover {
 color:#ffcc00;
 }
+
 a:visited {
 color: #cccccc;
 }
+
 h2 {
 font-size: 1.1em; /* Размер шрифта */
 color: #800040; /* Цвет текста */
 margin-top: 0; /* Отступ сверху */
 }
+
 #container {
 width: 500px; /* Ширина слоя */
 margin: 0 auto; /* Выравнивание по центру */
@@ -38,7 +36,7 @@ position: relative;
 box-shadow: inset 0 0 15px #CCC, 0 0 10px;
 border: 1px solid #575757;
 }
-#header {
+.header {
 font-size: 3em; /* Размер текста */
 text-align: center; /* Выравнивание по центру */
 font-weight: 600; /* Насыщенность текста*/
