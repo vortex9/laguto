@@ -1,0 +1,177 @@
+body {
+		
+font: 10pt Arial, Helvetica, sans-serif, Tahoma; /* Шрифт на веб-странице */
+
+
+background: #DBDBEE url(/pic/main.jpg);
+
+}
+
+a:link {
+text-decoration: none;
+}
+
+a:hover {
+color:#ffcc00;
+}
+a:visited {
+color: #cccccc;
+}
+h2 {
+font-size: 1.1em; /* Размер шрифта */
+color: #800040; /* Цвет текста */
+margin-top: 0; /* Отступ сверху */
+}
+#container {
+width: 500px; /* Ширина слоя */
+margin: 0 auto; /* Выравнивание по центру */
+margin-top: 5%;
+
+border-radius: 8px;
+position: relative;
+/*box-shadow: inset 0 0 15px #CCC, 0 0 10px;*/
+/*border: 1px solid #575757;*/
+}
+#header {
+font-size: 3em; /* Размер текста */
+text-align: center; /* Выравнивание по центру */
+font-weight: 600; /* Насыщенность текста*/
+text-shadow: 0px 2px 3px #555555; /* Тень текста */
+padding: 5px; /* Отступы вокруг текста */
+background: #464451; /* Цвет фона шапки */
+color: #222222; /* Цвет текста */
+border-radius: 8px 8px 0  0;
+/*box-shadow: -2px -2px 5px #000;*/
+letter-spacing: 5px;
+position: relative;
+}
+#menu {
+background: #464451; /* Цвет фона */
+padding-bottom: 40px;
+margin: 0px auto;
+position: relative;
+}
+
+#content {
+position: relative;
+padding: 10px; /* Поля вокруг текста */
+background: #ccc; /* Цвет фона правой колонки */
+height: 100px;
+
+}
+
+#footer {
+background: #464451; /* Цвет фона подвала */
+color: #fff; /* Цвет текста */
+padding: 2px; /* Отступы вокруг текста */
+padding-bottom: 20px;
+border-radius: 0 0 8px 8px;
+/*box-shadow: -2px 2px 5px #000;*/
+position: relative;
+}
+#footer .email {
+
+float: left;
+padding-left:20px;
+
+}
+#footer .copy {
+
+float:right;
+padding-right:10px;
+}
+#bg_block {
+right: 5px;
+bottom: 5px;
+position: absolute;
+}
+#social {
+right: 5px;
+top: 5px;
+position: absolute;
+border: 5px;
+}
+TABLE {
+border: 0px #399; /* Граница вокруг таблицы */
+/* margin: 0 auto; */
+}
+TD {
+font-size: 1.1em; /* Размер текста */
+font-weight: 600; /* Насыщенность текста*/
+text-shadow: 0px 2px 3px #fff; /* Тень текста */
+color: #7F7F7F; /* Цвет текста */
+border: 0px ; /* Граница вокруг ячеек */
+/* empty-cells: show; /* Прячем пустые ячейки */
+padding: 0px; /* Поля в ячейках */
+}
+
+
+.bg2 {
+font-size: 20px;
+border: none;
+height: 20px;
+width: 20px;
+padding: 0;
+background-image: radial-gradient(#000 15%, rgba(0, 0, 0, 0) 16%), radial-gradient(#000 15%, rgba(0, 0, 0, 0) 16%), radial-gradient(rgba(255, 255, 255, 0.0980392) 15%, rgba(0, 0, 0, 0) 20%), radial-gradient(rgba(255, 255, 255, 0.0980392) 15%, rgba(0, 0, 0, 0) 20%);
+background-color: #282828;
+background-size: 8px;
+background-position: 0px 0px, 8px 8px, 0px 1px, 8px 9px;
+}
+
+#social a {
+color: #575757;
+/*text-shadow: 0 0 2px #005BFD;*/
+font-size: 2em;
+margin-left: 5px;
+transition: 0.5s all;
+border: 1px solid #575757;
+padding: 0 2px;
+text-align: center;
+border-radius: 5px;
+width: 1.1em;
+height: 1.1em;
+vertical-align: middle;
+}
+
+#social a:hover {
+box-shadow: 0 0 18px #005BFD inset;
+border: 1px solid #005BFD;
+}
+
+#social a.fa-gamepad:hover {
+box-shadow: 0 0 18px black inset;
+border: 1px solid #575757;
+text-shadow: 0 0 2px black;
+color: silver;
+}
+
+#social a.fa-instagram:hover {
+box-shadow: 0 0 18px #CFC0AD inset;
+border: 1px solid #925A45;
+
+color: #925A45;
+}
+
+#social a.fa-linkedin:hover {
+box-shadow: 0 0 18px #9ACBE2 inset;
+border: 1px solid #007BB6;
+
+color: #007BB6;
+}
+
+#social a.fa-twitter:hover {
+box-shadow: 0 0 18px #CFECF9 inset;
+border: 1px solid #2DAAE4;
+
+color: #2DAAE4;
+}
+
+#social a.fa-music:hover {
+box-shadow: 0 0 18px #CFB1B1 inset;
+border: 1px solid #F00;
+color: #F00;
+}
+
+.fa {
+.padding-right: 5px;
+}
