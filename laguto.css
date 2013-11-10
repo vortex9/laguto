@@ -11,9 +11,7 @@ a:link {
 text-decoration: none;
 }
 
-a:hover {
-color:#ffcc00;
-}
+
 a:visited {
 color: #cccccc;
 }
@@ -69,42 +67,59 @@ border-radius: 0 0 8px 8px;
 /*box-shadow: -2px 2px 5px #000;*/
 position: relative;
 }
-#footer .email {
+#footer .email, #footer .feedback {
 
 float: left;
 padding-left:20px;
 
 }
+
+#footer a:hover {
+color:#ffcc00;
+}
+
 #footer .copy {
 
 float:right;
 padding-right:10px;
 }
 #bg_block {
-right: 5px;
+/*right: 5px;
 bottom: 5px;
 position: absolute;
+*/
+
+position: absolute;
+width: 100%;
+height: 20px;
+bottom: 0px;
+right: 0px;
+padding: 3px 0px;
+border-top: 1px solid #575757;
+/*border-bottom: 1px solid rgb(0, 0, 0);*/
+box-shadow: 0px -5px #ccc inset, 5px 0px 5px #ccc inset, -5px 0px 5px #ccc inset, 2px 0px 5px #575757;
 }
+
 #social {
 right: 5px;
 top: 5px;
 position: absolute;
 border: 5px;
 }
-TABLE {
-border: 0px #399; /* Граница вокруг таблицы */
-/* margin: 0 auto; */
-}
-TD {
+
+
+.info {
 font-size: 1.1em; /* Размер текста */
 font-weight: 600; /* Насыщенность текста*/
 text-shadow: 0px 2px 3px #fff; /* Тень текста */
 color: #7F7F7F; /* Цвет текста */
 border: 0px ; /* Граница вокруг ячеек */
-/* empty-cells: show; /* Прячем пустые ячейки */
 padding: 0px; /* Поля в ячейках */
 }
 
+.info i {
+cursor: default;	
+}
 
 .bg2 {
 font-size: 20px;
@@ -139,10 +154,10 @@ border: 1px solid #005BFD;
 }
 
 #social a.fa-gamepad:hover {
-box-shadow: 0 0 18px black inset;
-border: 1px solid #575757;
-text-shadow: 0 0 2px black;
-color: silver;
+box-shadow: 0 0 12px #FFA300 inset;
+border: 1px solid darkorange;
+text-shadow: 0 0 2px #000;
+color: darkorange;
 }
 
 #social a.fa-instagram:hover {
@@ -177,5 +192,6 @@ color: #F00;
 }
 i:hover {
 color:#ffcc00;
+text-shadow: 0px 0px 2px black;
 }
 
