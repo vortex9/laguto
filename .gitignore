@@ -1,7 +1,7 @@
 #################
 ## Eclipse
 #################
-
+task/
 *.pydevproject
 .project
 .metadata
