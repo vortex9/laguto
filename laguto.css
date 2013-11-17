@@ -67,11 +67,11 @@ border-radius: 0 0 8px 8px;
 /*box-shadow: -2px 2px 5px #000;*/
 position: relative;
 }
-#footer .email, #footer .feedback {
+#footer .email, #footer .feedback, #footer .about {
 
 float: left;
 padding-left:20px;
-
+cursor: pointer;
 }
 
 #footer a:hover {
@@ -84,21 +84,51 @@ float:right;
 padding-right:10px;
 }
 #bg_block {
-/*right: 5px;
+right: 5px;
 bottom: 5px;
 position: absolute;
-*/
-
-position: absolute;
-width: 100%;
-height: 20px;
-bottom: 0px;
-right: 0px;
-padding: 3px 0px;
-border-top: 1px solid #575757;
-/*border-bottom: 1px solid rgb(0, 0, 0);*/
-box-shadow: 0px -5px #ccc inset, 5px 0px 5px #ccc inset, -5px 0px 5px #ccc inset, 2px 0px 5px #575757;
+padding: 2px;
+background: #FFF;
+border-radius: 20px;
+transition: 0.5s all;
 }
+
+
+
+#bg_block:hover:after {
+content: attr(title);
+
+}
+
+#bg_block_right {
+	float: left;
+	border-radius:0px 20px 20px 0px;
+	padding:2px 10px 2px 5px;
+	background: #FFF;
+	border: 1px solid #EBEBEB;
+}
+
+#bg_block_left {
+	float: left;
+border-radius: 20px 0 0 20px;
+padding:2px 5px 2px 10px;	
+background: #78E496;
+border: 1px solid #EBEBEB;
+}
+
+.fa.fa-question {
+border: 1px solid;
+font-size: 0.4em;
+float: right;
+border-radius: 100%;
+text-align: center;
+width: 1em;
+height: 1em;
+letter-spacing: normal;
+cursor: pointer;
+}
+
+
 
 #social {
 right: 5px;
@@ -106,7 +136,6 @@ top: 5px;
 position: absolute;
 border: 5px;
 }
-
 
 .info {
 font-size: 1.1em; /* Размер текста */
@@ -118,28 +147,39 @@ padding: 0px; /* Поля в ячейках */
 }
 
 .info i {
-cursor: default;	
+cursor: default;
+	
 }
 
 .bg2 {
-font-size: 20px;
+border-radius: 100%;
+position: relative;
 border: none;
-height: 20px;
-width: 20px;
+height: 10px;
+width: 10px;
 padding: 0;
-background-image: radial-gradient(#000 15%, rgba(0, 0, 0, 0) 16%), radial-gradient(#000 15%, rgba(0, 0, 0, 0) 16%), radial-gradient(rgba(255, 255, 255, 0.0980392) 15%, rgba(0, 0, 0, 0) 20%), radial-gradient(rgba(255, 255, 255, 0.0980392) 15%, rgba(0, 0, 0, 0) 20%);
 background-color: #282828;
-background-size: 8px;
-background-position: 0px 0px, 8px 8px, 0px 1px, 8px 9px;
+cursor: pointer;
+}
+
+.bg1 {
+	border-radius: 100%;
+	position: relative;
+border: none;
+height: 10px;
+width: 10px;
+padding: 0;
+background-color: #808080;
+cursor: pointer;
 }
 
 #social a {
 color: #575757;
 /*text-shadow: 0 0 2px #005BFD;*/
-font-size: 2em;
-margin-left: 5px;
+font-size: 1.5em;
+margin-left: 2px;
 transition: 0.5s all;
-border: 1px solid #575757;
+border: 2px solid #575757;
 padding: 0 2px;
 text-align: center;
 border-radius: 5px;
@@ -150,40 +190,40 @@ vertical-align: middle;
 
 #social a:hover {
 box-shadow: 0 0 18px #005BFD inset;
-border: 1px solid #005BFD;
+border: 2px solid #005BFD;
 }
 
 #social a.fa-gamepad:hover {
 box-shadow: 0 0 12px #FFA300 inset;
-border: 1px solid darkorange;
+border: 2px solid darkorange;
 text-shadow: 0 0 2px #000;
 color: darkorange;
 }
 
 #social a.fa-instagram:hover {
 box-shadow: 0 0 18px #CFC0AD inset;
-border: 1px solid #925A45;
+border: 2px solid #925A45;
 
 color: #925A45;
 }
 
 #social a.fa-linkedin:hover {
 box-shadow: 0 0 18px #9ACBE2 inset;
-border: 1px solid #007BB6;
+border: 2px solid #007BB6;
 
 color: #007BB6;
 }
 
 #social a.fa-twitter:hover {
 box-shadow: 0 0 18px #CFECF9 inset;
-border: 1px solid #2DAAE4;
+border: 2px solid #2DAAE4;
 
 color: #2DAAE4;
 }
 
 #social a.fa-music:hover {
 box-shadow: 0 0 18px #CFB1B1 inset;
-border: 1px solid #F00;
+border: 2px solid #F00;
 color: #F00;
 }
 
@@ -194,4 +234,53 @@ i:hover {
 color:#ffcc00;
 text-shadow: 0px 0px 2px black;
 }
+
+.about:hover:after {
+content: attr(title);	
+}
+
+.fa-envelope-o:hover:after {
+content: attr(title);	
+}
+
+.fa-comments:hover:after {
+content: attr(title);	
+}
+.copy a:hover:after{
+	content: attr(title);	
+
+}
+
+.fa.fa-question:hover:after {
+	content: attr(title);
+	
+}
+
+/*
+#bg_block:hover:after, .about:hover:after, .fa-envelope-o:hover:after, .fa-comments:hover:after {
+position: fixed;
+top: 0px;
+left: 0px;
+color: #000;
+width: 100%;
+background: #F5F5DC;
+text-align: center;
+vertical-align: middle;
+font-size: 1.5em;
+}
+*/
+*:hover:after {
+	
+position: fixed;
+top: 0px;
+left: 0px;
+color: #000;
+width: 100%;
+background: #F5F5DC;
+text-align: center;
+vertical-align: middle;
+font-size: 1.5em;
+text-shadow: none;
+}
+
 
