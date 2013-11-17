@@ -270,17 +270,18 @@ font-size: 1.5em;
 }
 */
 *:hover:after {
-	
 position: fixed;
 top: 0px;
 left: 0px;
 color: #000;
 width: 100%;
-background: #F5F5DC;
+background: #D3B871;
 text-align: center;
 vertical-align: middle;
 font-size: 1.5em;
 text-shadow: none;
+border-bottom: 1px solid #000;
+box-shadow: 0 0 5px #FFB800, inset 0px -6px 6px #F3DEA8, inset 0px 8px 8px #F1CF77;
 }
 
 
