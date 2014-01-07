@@ -146,14 +146,16 @@ text-shadow: 0px 2px 3px #fff; /* Тень текста */
 color: #7F7F7F; /* Цвет текста */
 border: 0px ; /* Граница вокруг ячеек */
 padding: 0px; /* Поля в ячейках */
+width: 50%;
+}
+
+.info a {
+	color: #7F7F7F;
 }
 
 .info i {
 cursor: default;
-	
 }
-
-
 
 #social a {
 color: #575757;
