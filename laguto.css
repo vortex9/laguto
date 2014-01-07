@@ -87,9 +87,9 @@ padding-right:10px;
 right: 5px;
 bottom: 5px;
 position: absolute;
-padding: 2px;
+/*padding: 2px;
 background: #FFF;
-border-radius: 20px;
+border-radius: 20px;*/
 transition: 0.5s all;
 }
 
@@ -106,6 +106,7 @@ content: attr(title);
 	padding:2px 10px 2px 5px;
 	background: #FFF;
 	border: 1px solid #EBEBEB;
+	height:8px;
 }
 
 #bg_block_left {
@@ -114,6 +115,7 @@ border-radius: 20px 0 0 20px;
 padding:2px 5px 2px 10px;	
 background: #78E496;
 border: 1px solid #EBEBEB;
+height:8px;
 }
 
 .fa.fa-question {
@@ -151,27 +153,7 @@ cursor: default;
 	
 }
 
-.bg2 {
-border-radius: 100%;
-position: relative;
-border: none;
-height: 10px;
-width: 10px;
-padding: 0;
-background-color: #282828;
-cursor: pointer;
-}
 
-.bg1 {
-	border-radius: 100%;
-	position: relative;
-border: none;
-height: 10px;
-width: 10px;
-padding: 0;
-background-color: #808080;
-cursor: pointer;
-}
 
 #social a {
 color: #575757;
